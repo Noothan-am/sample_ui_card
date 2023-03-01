@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.main_card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 10rem;
+    height: 22rem;
+    border-radius: 1.4rem;
+    box-shadow: 8px 5px 23px -15px #00000061
+}
+
+.left_card ,.right_card{
+    height: 100%;
+}
+.left_card{
+    width: 48%;
+    color: rgba(255, 255, 255, 0.822);
+    border-radius: 1.4rem;
+    background-color: rgb(92, 61, 250);
+}
+.left_card h3{
+    color: rgb(255, 255, 255);
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+}
+.title{
+    padding: 18px 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.paragraph{
+    width: 75%;
+    font-size: 15px;
+    margin: 1rem auto;
+    
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    border-radius: 77rem;
+    padding: 1.5rem 2rem;
+    font-size: .8rem;
+    /* color: rgba(255, 255, 255, 0.822); */
+    font-weight: 600;
+    width: 23%;
+    margin: 10px auto;
+    background-image: linear-gradient(rgb(7, 7, 185), rgb(74, 41, 239) ,rgb(92, 61, 250));
+}
+
+.card_score{
+    color: rgba(0, 0, 0, 0.737);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main_score{
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.right_card{
+    color: black;
+    width: 45%;
+    margin: auto;
+}
+
+.summary_cards{
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+    
+}
+
+.summary{
+    text-align: start;
+    margin-top: 1.7rem;
+    font-weight: 600;
+}
+
+.card{
+    /* border: 1px solid red; */
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 6px auto;
+    padding: .6rem;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.card1{
+    background-color: red;
+    background-color: #ff3e3e24;
+    color: red;
+}
+.card2{
+    background-color: rgb(221, 255, 0);
+    background-color: rgb(221 255 0 / 28%);
+    color: #cbcb00;
+}
+.card4{
+    background-color: rgb(38 0 255 / 22%);
+    color: #0000ffb5;
+}
+.card3{
+    background-color: rgb(60 255 0 / 21%);
+    color: #00aa00;
+}
+button{
+    border: none;
+    margin-top: 1rem;
+    background-color: rgb(48, 59, 89);
+    color: white;
+    width: 92%;
+    border-radius: 1rem;
+    padding: 13px 7px;
+    font-size: 13.5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(48, 59, 89, 0.909);
+}
